@@ -7,27 +7,121 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- loading screen -->
-     <div id="loader">
-     <img src="./Assets/logoLoader-removebg-preview.png" alt="logo" class="logo">
-     </div>
+    <!-- Loading Screen -->
+  <div id="loader">
+    <img src="./Assets/ChatGPT Image Sep 1, 2025, 09_25_36 AM.png" alt="Brand Logo" class="logo">
+  </div>
 
-     <!-- Main page -->
-      <div id="content" class="hidden">
-        <header>
-            <h1>Welcome to Trench Trend</h1>
-            <em>Fusion of Grit and Style.</em>
-            <h2>About Us: Trench Trend</h2>
-            <p>
+  <!-- Dark Mode Toggle -->
+  <button id="darkModeToggle">🌙</button>
+
+  <!-- Main Content -->
+  <div id="content" class="hidden">
+    <!-- Navbar -->
+    <nav>
+      <img src="./Assets/logoLoader-removebg-preview.png" alt="Brand Logo" class="nav-logo">
+      <h2>Trench Trend</h2>
+    </nav>
+
+    <!-- Hero Section with Background -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-text">
+        <img src="./Assets/IMG-20250820-WA0056.jpg" alt="Round Neck Shirt" class="hero-img">
+        <h1>Fusion of Grit and Style</h1>
+        <p>
                 At Trench Trend, fashion isn't just clothing, it's a statement, a lifestyle, and a reflection of who you are. We believe every outfit should tell a story, and every piece should inspire confidence.
                 Born out of a passion for timeless style with a modern edge, Trench Trend is committed to creating fashion that blends comfort, originality, and elegance. From casual staples to statement pieces, our collections are designed for individuals who want to stand out while staying true to themselves.
                 We are more than a brand, we are a community of trendsetters, redefining what it means to look good and feel good. Each design is carefully crafted to celebrate individual expression, combining quality fabrics with cutting-edge style.
                 At Trench Trend, we don't just follow trends, we set them.
+                Premium round necks for every occasion.
             </p>
-        </header>
-
-        <button id="whatsappBtn">Chat on WhatsApp</button>
+        
       </div>
+    </section>
+
+    <!-- Products Section -->
+<section class="products">
+  <h2>Our Collection</h2>
+  <div class="carousel-container">
+    <!-- <button class="carousel-btn left">‹</button> -->
+    <div class="carousel-track">
+      <div class="product-card">
+        <img src="./Assets/IMG-20250901-WA0011.jpg" alt="Shirt 1">
+        <p>Classic White Tees</p>
+      </div>
+      <div class="product-card">
+        <img src="./Assets/IMG-20250901-WA0012.jpg" alt="Shirt 2">
+        <p>Black Vibe Tee</p>
+      </div>
+      <div class="product-card">
+        <img src="./Assets/IMG-20250901-WA0033.jpg" alt="Shirt 3">
+        <p>Jersey Wear</p>
+      </div>
+      <div class="product-card">
+        <img src="./Assets/IMG-20250901-WA0005.jpg" alt="Shirt 4">
+        <p>Armless Vibe</p>
+      </div>
+      <div class="product-card">
+        <img src="./Assets/IMG-20250901-WA0013.jpg" alt="Shirt 4">
+        <p>Face Cap Vibe</p>
+      </div>
+      <div class="product-card">
+        <img src="./Assets/IMG-20250901-WA0021.jpg" alt="Shirt 4">
+        <p>Work of Art</p>
+      </div>
+    </div>
+    <!-- <button class="carousel-btn right">›</button> -->
+    <button class="carousel-btn left">&#10094;</button>
+    <button class="carousel-btn right">&#10095;</button>
+  </div>
+</section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="slider">
+        <div class="testimonial-card">
+          <img src="./Assets/client.jpg" alt="Client 1">
+          <p>"Amazing quality and fast delivery!"</p>
+          <h4>- Ugbaka D.</h4>
+        </div>
+        <div class="testimonial-card">
+          <img src="./Assets/client.jpg" alt="Client 2">
+          <p>"The round neck shirts are my favorite!"</p>
+          <h4>- Jimoh F.</h4>
+        </div>
+        <div class="testimonial-card">
+          <img src="./Assets/client.jpg" alt="Client 3">
+          <p>"Great customer service and beautiful designs."</p>
+          <h4>- Azode I.</h4>
+        </div>
+        <div class="testimonial-card">
+          <img src="./Assets/client.jpg" alt="Client 3">
+          <p>"Nice and affordable."</p>
+          <h4>- Ojo S.</h4>
+        </div>
+        <div class="testimonial-card">
+          <img src="./Assets/client.jpg" alt="Client 3">
+          <p>"I'm definately patronizing again!"</p>
+          <h4>- Folawiyo F.</h4>
+        </div>
+        <div class="testimonial-card">
+          <img src="./Assets/client.jpg" alt="Client 3">
+          <p>"I'll refer to all my family members."</p>
+          <h4>- Anyaene C.</h4>
+        </div>
+      </div>
+      <button class="prev"><</button>
+      <button class="next">></button>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/2347080779562" id="whatsappBtn" target="_blank">
+      💬 Chat on WhatsApp
+    </a>
+  </div>
+
     
       <script src="script.js"></script>
 </body>
